@@ -1,5 +1,7 @@
 # PaidAnswer
 
+![PaidAnswer cover](cover.png)
+
 **Pay-per-answer AI chatbot core for Telegram and WhatsApp, with one tested promise: a user who paid gets an answer or a refund, exactly once.**
 
 A user asks a question, pays through a payment link, and gets an AI answer (text, optionally a voice note). The hard part of this kind of product is not the AI call. It is what happens when something breaks *after the money has been taken*: the model times out, the webhook is delivered twice, the server restarts, the user's chat cannot be reached. PaidAnswer is built around those cases and proves them with 21 failure scenarios.
